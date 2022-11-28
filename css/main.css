@@ -1,0 +1,55 @@
+body {
+  background-color: #151313;
+  color: white;
+  text-align: center;
+}
+
+* {
+  font-family: 'Montserrat', Lato, sans-serif;;
+}
+
+.social-link:link {
+  color: white;
+  text-decoration: none;
+}
+
+.social-link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.social-link:active {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  width: 100vh;
+  height: 100vw;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  /* Whatever width you want */
+}
